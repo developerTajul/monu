@@ -12,6 +12,9 @@ a {
 	transition: .3s;
 	text-decoration: none;
 }
+a:hover {
+	text-decoration: none;
+}
 
 ul {
 	margin: 0;
@@ -497,7 +500,9 @@ h6 {
 /** 
 * contact-info-widget 
 **/
-.footer-area .footer-top-widget .contact-info-widget{}
+.footer-area .footer-top-widget .contact-info-widget .contact-info {
+	margin-top: -9px;
+}
 .footer-area .footer-top-widget .contact-info-widget .contact-info{}
 .footer-area .footer-top-widget .contact-info-widget .contact-info ul{}
 .footer-area .footer-top-widget .contact-info-widget .contact-info ul li {
@@ -525,7 +530,9 @@ h6 {
 * footer-top-widget widget_nav_menu
 */
 .footer-top-widget.widget_nav_menu{}
-.footer-top-widget.widget_nav_menu ul{}
+.footer-top-widget.widget_nav_menu ul {
+	margin-top: -11px;
+}
 .footer-top-widget.widget_nav_menu ul li {
 	width: 48%;
 	display: inline-block;
@@ -534,24 +541,60 @@ h6 {
 	color: #777777;
 	line-height: 36px;
 }
+.footer-top-widget.widget_nav_menu ul li a::before {
+	content: "\f105";
+	font-family: 'Font Awesome 5 free';
+	font-weight: 900;
+	margin-right: 10px;
+}
+
 .footer-top-widget.widget_nav_menu ul li a:hover{
 	color: #505CFD;
 	text-decoration: none;
 }
 
 /** latest-blog-widget **/
-.latest-blog-widget{}
-.latest-blog-widget .single-latest-blog-item{}
-.latest-blog-widget .single-latest-blog-item .blog-thumb{}
-.latest-blog-widget .single-latest-blog-item .blog-thumb img{
-	max-width: inherit;
-	height: auto;
-	width: auto;
+.single-latest-blog-item {
+  margin-bottom: 30px;
 }
-.latest-blog-widget .single-latest-blog-item .blog-text{}
-.latest-blog-widget .single-latest-blog-item .blog-text a {
+.blog-text a > h3 {
+	color: #777777;
 	font-size: 17px;
-	line-height: 36px;
-	color: #fff;
+	line-height: 30px;
+	margin-bottom: 5px;
+	margin-top: -9px;
 }
-.latest-blog-widget .single-latest-blog-item .blog-text span{}
+.blog-text span {
+  color: #777777;
+  font-size: 15px;
+  line-height: 25px;
+}
+.blog-thumb {
+  padding-right: 20px;
+}
+
+
+.copy-info p {
+	color: #777777;
+	font-size: 14px;
+	line-height: 30px;
+	margin-top: 4px;
+}
+
+.footer-bottom .footer-menu ul {
+  display: flex;
+}
+.footer-bottom .footer-menu ul li {
+  margin: 0 0 0 15px;
+}
+
+.footer-bottom .footer-menu ul li a {
+  color: #777777;
+  font-size: 15px;
+  line-height: 36px;
+}
+.footer-top-border {
+	border-bottom: 1px solid #494949;
+	display: block;
+	clear: both;
+}
