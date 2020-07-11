@@ -1,6 +1,41 @@
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
+	.theme-btn a {
+		padding: 11px 34px;
+	}
+	.single-slide-item .social-profiles {
+		padding-top: 100px;
+	}
 
+	.slide-content h2 {
+		font-size: 60px;
+	}
+	.slide-content p {
+		margin-bottom: 25px;
+	}
+
+	.feature-area {
+		margin-top: 0;
+		padding-top: 70px;
+	}
+
+	.about-contnet h3 {
+		font-size: 27px;
+	}
+	.about-contnet .theme-btn a {
+		padding: 15px 40px;
+	}
+
+	.about-contnet p {
+		margin-bottom: 25px;
+	}
+
+	.section-heading {
+		margin-bottom: 30px;
+	}
+	.subscribe-form input[type="submit"] {
+		margin-left: 20px;
+	}
 
 }
 
@@ -21,6 +56,38 @@
  
 /* SM Small Device :550px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+	.copy-info p {
+	  text-align: center;
+	}
+
+	.single-pring-table {
+		width: 90%;
+		margin: 0 auto;
+		margin-bottom: 35px;
+	}
+
+	.single-pring-table h4 > span {
+		left: 190px;
+	}
+
+	.section-heading h3 {
+		font-size: 26px;
+	}
+
+	.section-heading {
+		margin-bottom: 30px;
+	}
+
+	.subscribe-form input[type="email"] {
+		width: 100%;
+		padding: 18px 30px;
+		margin-bottom: 30px;
+	}
+	.subscribe-form input[type="submit"] {
+		width: 100%;
+		padding: 18px 30px;
+		margin: 0 auto;
+	}
 
 }
 

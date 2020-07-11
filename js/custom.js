@@ -29,45 +29,6 @@
 		  slidesToScroll: 1,
 		});
 
-/**
-		$('.main-slide-active').owlCarousel({
-		    loop:true,
-		    dots: true,
-		    nav:true,
-		    navText: ['<i class="far fa-angle-left">', '<i class="far fa-angle-right">'],
-		    responsive:{
-		        0:{
-		            items:1
-		        },
-		        600:{
-		            items:1
-		        },
-		        1000:{
-		            items:1
-		        }
-		    }
-		});
-**/
-
-		$('.project-active').owlCarousel({
-		    loop:true,
-		    dots: false,
-		    nav:true,
-		    navText: ['<i class="far fa-angle-left">', '<i class="far fa-angle-right">'],
-		    responsive:{
-		        0:{
-		            items:1
-		        },
-		        600:{
-		            items:3
-		        },
-		        1000:{
-		            items:4
-		        }
-		    }
-		});
-
-
 
 		$('.image-popup-vertical-fit').magnificPopup({
 			type: 'image',
@@ -103,56 +64,7 @@
 		});
 
 
-		$('.popup-video').magnificPopup({type:'iframe'});
-
-		// latest blog
-		$('.blog-active').owlCarousel({
-		    loop:true,
-		    dots: false,
-		    nav: true,
-		    navText: ['<i class="far fa-angle-left">', '<i class="far fa-angle-right">'],
-		    responsive:{
-		        0:{
-		            items:1
-		        },
-		        600:{
-		            items:1
-		        },
-		        1000:{
-		            items:1
-		        }
-		    }
-		});
-		
-		// testimonial-active
-		// $('.testimonial-active').owlCarousel({
-		//     loop:true,
-		//     dots: false,
-		//     nav: true,
-		//     navText: ['<i class="far fa-angle-left">', '<i class="far fa-angle-right">'],
-		//     responsive:{
-		//         0:{
-		//             items:1
-		//         },
-		//         600:{
-		//             items:1
-		//         },
-		//         800:{
-		//             items:1
-		//         },
-		//         1000:{
-		//             items:1
-		//         }
-		//     }
-		// });
-
-
-
-
-
-
-
-		
+		$('.popup-video').magnificPopup({type:'iframe'});			
 
 	});
 
